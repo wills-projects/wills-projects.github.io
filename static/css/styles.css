@@ -109,6 +109,23 @@ nav li {
 /* NEED TO STYLE CONTACT LINK IN FOOTING */
 
 /*---------------------------------------------------------------------------------------------------------*/
+/* Styling the nav bar interactivity */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.active {
+    background-color: #A3B18A; /* nice sage green for button selection */
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    background-color: #A3B18A; 
+}
+
+nav ul li a:focus {
+    outline: #A3B18A double 3px;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
 /* Styling the home page */
 /*---------------------------------------------------------------------------------------------------------*/
 
@@ -235,13 +252,25 @@ nav li {
     width: 20vw;
 }
 
-.experiences_list h2 {
+.experiences_list a {
+    color: #333;
+    text-decoration: underline;
+    text-shadow: 0.04em 0.03em 0.04em #2F4F4F;
+    
     padding: 0px; 
     margin-left: 1vw;
 
     margin-top: 0.2vw;
     margin-bottom: 0.2vw;
     font-size: 3vw;
+}
+
+.experiences_list a:hover {
+    color: #A3B18A; 
+}
+
+.experiences_list a:focus {
+    text-decoration: none;
 }
 
 .experiences_list h3 {
@@ -298,13 +327,25 @@ nav li {
     width: 20vw;
 }
 
-.leadership_list h2 {
+.leadership_list a {
+    color: #333;
+    text-decoration: underline;
+    text-shadow: 0.04em 0.03em 0.04em #2F4F4F;
+    
     padding: 0px; 
     margin-left: 1vw;
 
     margin-top: 0.2vw;
     margin-bottom: 0.2vw;
     font-size: 3vw;
+}
+
+.leadership_list a:hover {
+    color: #A3B18A; 
+}
+
+.leadership_list a:focus {
+    text-decoration: none;
 }
 
 .leadership_list h3 {
@@ -324,6 +365,27 @@ nav li {
     margin-bottom: 0.4vw;
     font-size: 1.8vw;
 }
+
+#discord {
+    color: #333;
+    text-shadow: none !important;
+
+    padding: 0px; 
+    margin-left: 0vw;
+
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    font-size: 1em;
+}
+
+#discord:hover {
+    color: #A3B18A; 
+}
+
+#discord:focus {
+    text-decoration: none;
+}
+
 
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the about me page */
@@ -351,5 +413,38 @@ nav li {
     text-indent: 4vw;
 }
 
+#about_section a {
+    color: #333;
+    text-decoration: underline;
+}
 
+#about_section a:hover {
+    color: #A3B18A; 
+}
 
+#about_section a:focus {
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+/* Styling the footing!! */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.footing a {
+    color: #333;
+    text-decoration: none;
+    text-shadow: 0.04em 0.03em 0.04em #2F4F4F;
+}
+
+.footing p {
+    font-size: 2.5vw;
+    margin: 0.5em 0em;
+}
+
+.footing a:hover {
+    color: #A3B18A; 
+}
+
+.footing a:focus {
+    text-decoration: underline;
+}
