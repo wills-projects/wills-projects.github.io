@@ -13,6 +13,7 @@
       media="all and (max-width:500px)"
       href="./static/css/styles_smartphone.css"
     />
+    <script src="./static/js/script.js"></script>
   </head>
   <body>
     <header class="heading">
@@ -21,7 +22,6 @@
         alt="A headshot of William Lee"
         id="portrait"
       />
-      <h1 id="welcome">Welcome to My Portfolio!</h1>
 
       <!-- Horizontal Navigation Bar -->
       <nav>
@@ -39,7 +39,10 @@
       <ul class="leadership_list">
         <li>
           <div class="text">
-            <h2>Pitt Jazz Ensemble</h2>
+            <a
+              href="https://www.music.pitt.edu/performance/ensembles/jazz-ensemble"
+              >Pitt Jazz Ensemble</a
+            >
             <h3>Vice President (April 2024 - Current)</h3>
             <p>
               The Pitt Jazz Ensemble has been an amazing experience for me. I
@@ -67,7 +70,7 @@
               alt="The VALORANT logo in a super cool colorway!"
           /></a>
           <div class="text">
-            <h2>VALORANT Club at Pitt</h2>
+            <a href="https://discord.gg/KS2rZrHX5E">VALORANT Club at Pitt</a>
             <h3>President (August 2023 - Current)</h3>
             <p>
               The VALORANT Club at Pitt is a personal project I started back in
@@ -78,8 +81,9 @@
             <p>
               As the club president, I've been responsible for coordinating club
               events, facilitating club growth through our
-              <a href="https://discord.gg/KS2rZrHX5E">Discord</a> server, and
-              even hosting VALORANT tournaments for other Pitt students!
+              <a href="https://discord.gg/KS2rZrHX5E" id="discord">Discord</a>
+              server, and even hosting VALORANT tournaments for other Pitt
+              students!
             </p>
           </div>
         </li>
