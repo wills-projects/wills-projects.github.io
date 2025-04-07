@@ -81,33 +81,6 @@ nav li {
     margin-left: 1vw;
 }
 
-.footing {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 1vw;
-}
-
-.footing ul {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    gap: 5vw;
-}
-
-.footing img {
-    width: 4.5vw;
-    height: 4.5vw;
-}
-
-.footing a {
-    text-decoration: none;
-}
-
-/* NEED TO STYLE CONTACT LINK IN FOOTING */
-
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the nav bar interactivity */
 /*---------------------------------------------------------------------------------------------------------*/
@@ -429,6 +402,27 @@ nav ul li a:focus {
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the footing!! */
 /*---------------------------------------------------------------------------------------------------------*/
+
+.footing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.footing ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 5vw;
+}
+
+.footing img {
+    width: 4.5vw;
+    height: 4.5vw;
+}
 
 .footing a {
     color: #333;

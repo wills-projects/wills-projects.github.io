@@ -69,31 +69,6 @@ nav li {
     font-size: 5vw;
 }
 
-.footing {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 1vw;
-}
-
-.footing ul {
-    list-style: none;
-    padding-left: 0;
-    display: flex;
-    gap: 5vw;
-}
-
-.footing img {
-    width: 5vw;
-    height: 5vw;
-}
-
-.footing a {
-    text-decoration: none;
-}
-
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the home page */
 /*---------------------------------------------------------------------------------------------------------*/
@@ -396,6 +371,27 @@ nav li {
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the footing!! */
 /*---------------------------------------------------------------------------------------------------------*/
+
+.footing {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.footing ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 5vw;
+}
+
+.footing img {
+    width: 5vw;
+    height: 5vw;
+}
 
 .footing a {
     color: #333;
