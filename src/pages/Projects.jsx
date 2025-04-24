@@ -27,7 +27,7 @@ function Projects()
           </div>
           <a href=""
             ><img
-              src="./src/assets/operating systems graphics library.png"
+              src="/operating systems graphics library.png"
               alt="Picture of a red digital keyboard next to a lamp"
           /></a>
         </li>

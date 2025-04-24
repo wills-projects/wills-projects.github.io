@@ -57,14 +57,14 @@ function ImageTrack() {
   return (
     <div id="image-track-wrapper">
       <div id="image-track" ref={trackRef} data-mouse-down-at="0" data-prev-percentage="0">
-        <img src="./src/assets/valorant pixel art home.png" class="image" alt="A drawing I created using a system call graphics library." draggable="false" />
-        <img src="./src/assets/tartanhacks.jpg" class="image" alt="My friend and I judging a TartanHacks facial recognition project." draggable="false" />
-        <img src="./src/assets/jazz ensemble.jpg" class="image" alt="The Pitt Jazz Band ensemble rehearsing a song. I'm the vice president!" draggable="false" />
-        <img src="./src/assets/about me.jpg" class="image" alt="A photo of me exploring the Philadelphia Museum of Art!" draggable="false"/>
-        <img src="./src/assets/olympic national park.jpeg" class="image" alt="A photo of me staring out into Olympic National Park." draggable="false"/>
-        <img src="./src/assets/pittsburgh sunset.jpg" class="image" alt="A unique orange and purple sunset in Pittsburgh's Squirrel Hill." draggable="false"/>
-        <img src="./src/assets/avalon exchange thrift store.jpg" class="image" alt="The interior of Avalon Exchange thrift store in Pittsburgh." draggable="false"/>
-        <img src="./src/assets/website HTML progress.jpg" class="image" alt="The progression of my portfolio project's HTML code." draggable="false"/>
+        <img src="/valorant pixel art home.png" class="image" alt="A drawing I created using a system call graphics library." draggable="false" />
+        <img src="/tartanhacks.jpg" class="image" alt="My friend and I judging a TartanHacks facial recognition project." draggable="false" />
+        <img src="/jazz ensemble.jpg" class="image" alt="The Pitt Jazz Band ensemble rehearsing a song. I'm the vice president!" draggable="false" />
+        <img src="/about me.jpg" class="image" alt="A photo of me exploring the Philadelphia Museum of Art!" draggable="false"/>
+        <img src="/olympic national park.jpeg" class="image" alt="A photo of me staring out into Olympic National Park." draggable="false"/>
+        <img src="/pittsburgh sunset.jpg" class="image" alt="A unique orange and purple sunset in Pittsburgh's Squirrel Hill." draggable="false"/>
+        <img src="/avalon exchange thrift store.jpg" class="image" alt="The interior of Avalon Exchange thrift store in Pittsburgh." draggable="false"/>
+        <img src="/website HTML progress.jpg" class="image" alt="The progression of my portfolio project's HTML code." draggable="false"/>
       </div>
     </div>
   );

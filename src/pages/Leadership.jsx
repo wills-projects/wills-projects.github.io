@@ -29,7 +29,7 @@ function Leadership()
           <a
             href="https://www.music.pitt.edu/performance/ensembles/jazz-ensemble"
             ><img
-              src="./src/assets/piano setup.jpg"
+              src="/piano setup.jpg"
               alt="Picture of a red digital keyboard next to a lamp"
               id="piano"
           /></a>
@@ -37,7 +37,7 @@ function Leadership()
         <li>
           <a href="https://discord.gg/KS2rZrHX5E"
             ><img
-              src="./src/assets/valorant desktop icon.webp"
+              src="/valorant desktop icon.webp"
               alt="The VALORANT logo in a super cool colorway!"
               id="valorant"
           /></a>

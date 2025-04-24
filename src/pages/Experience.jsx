@@ -10,7 +10,7 @@ function Experience()
       <ul class="experiences_list">
         <li>
           <a href="https://www.lrdc.pitt.edu/kitlab/"
-            ><img src="./src/assets/kitlab.png" alt="KiTLab Logo" id="kitlab"
+            ><img src="/kitlab.png" alt="KiTLab Logo" id="kitlab"
           /></a>
           <div class="text">
             <a href="https://www.lrdc.pitt.edu/kitlab/">Pitt KiTLab</a>
@@ -30,7 +30,7 @@ function Experience()
         <li id="tartan">
           <a href="https://tartanhacks.com/"
             ><img
-              src="./src/assets/tartanhacks logo.jpg"
+              src="/tartanhacks logo.jpg"
               alt="TartanHacks Logo"
               id="tartanlogo"
           /></a>
@@ -52,7 +52,7 @@ function Experience()
         <li>
           <a href="https://www.howmet.com/"
             ><img
-              src="./src/assets/howmet aerospace.webp"
+              src="/howmet aerospace.webp"
               alt="Howmet Aerospace Logo"
               id="howmet"
           /></a>

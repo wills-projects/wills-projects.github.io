@@ -5,7 +5,7 @@ function Header_Home()
     return(
     <header class="heading">
       <img
-        src="./src/assets/portfolio portrait.jpg"
+        src="/portfolio portrait.jpg"
         alt="A headshot of William Lee"
         id="portrait"
       />
