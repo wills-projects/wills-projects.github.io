@@ -2,7 +2,7 @@
   "name": "react-portfolio-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://wills-projects.github.io",
+  "homepage": "https://wills-projects.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
