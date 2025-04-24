@@ -60,7 +60,7 @@ function ImageTrack() {
         <img src="/valorant pixel art home.png" class="image" alt="A drawing I created using a system call graphics library." draggable="false" />
         <img src="/tartanhacks.jpg" class="image" alt="My friend and I judging a TartanHacks facial recognition project." draggable="false" />
         <img src="/jazz ensemble.jpg" class="image" alt="The Pitt Jazz Band ensemble rehearsing a song. I'm the vice president!" draggable="false" />
-        <img src="/about me.jpg" class="image" alt="A photo of me exploring the Philadelphia Museum of Art!" draggable="false"/>
+        <img src="/about me.JPG" class="image" alt="A photo of me exploring the Philadelphia Museum of Art!" draggable="false"/>
         <img src="/olympic national park.jpeg" class="image" alt="A photo of me staring out into Olympic National Park." draggable="false"/>
         <img src="/pittsburgh sunset.jpg" class="image" alt="A unique orange and purple sunset in Pittsburgh's Squirrel Hill." draggable="false"/>
         <img src="/avalon exchange thrift store.jpg" class="image" alt="The interior of Avalon Exchange thrift store in Pittsburgh." draggable="false"/>
