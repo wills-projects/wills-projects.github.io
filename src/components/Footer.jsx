@@ -5,12 +5,12 @@ function Footer()
     <footer class="footing">
       <ul class="footer_icons">
         <li>
-          <a href="./home"
+          <a href="/home"
             ><img src="/home icon.png" alt="Home Icon" />
             <p>Home</p></a>
         </li>
         <li>
-          <a href="./about"
+          <a href="/about"
             ><img
               src="/about me icon.png"
               alt="Info/About Me Icon"
