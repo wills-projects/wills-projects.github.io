@@ -18,18 +18,25 @@ function ImageTrack() {
       const maxDelta = window.innerWidth / 2;
     
       const percentage = (mouseDelta / maxDelta) * -100;
-      let nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
-      nextPercentage = Math.max(Math.min(nextPercentage, 0), -100);
+      let nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage * 0.4;
+      // nextPercentage = Math.max(Math.min(nextPercentage, 0), -100);
+
+      // Subtract the VISIBLE width of the browser window from the TOTAL width of the track, which equals how much content is overflowing (how much we need to scroll)
+      // The track.scrollWidth when we divide tells us how much of the total width is hidden, so if we have 2000px of hidden content, we divide that by 3000px of total content and get 66% of hidden track
+      const maxMove = (track.scrollWidth - window.innerWidth) / track.scrollWidth * 100;
+
+      // Limit the movement of the image track between 0% and -maxMove%
+      nextPercentage = Math.max(Math.min(nextPercentage, 0), -maxMove);
       
       track.dataset.percentage = nextPercentage;
 
       track.animate({transform: `translate(${nextPercentage}%)`}, 
-                    {duration: 1200, fill:"forwards"});
+                    {duration: 300, fill:"forwards"});
 
       for (const image of track.getElementsByClassName("image")) 
       {
         image.animate({ objectPosition: `${100 + nextPercentage}% center` },
-                      { duration: 1200, fill: "forwards" });
+                      { duration: 300, fill: "forwards" });
       }
     };
 
