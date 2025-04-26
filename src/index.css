@@ -597,8 +597,8 @@ input[type="text"], textarea, [contenteditable]
 }
 
 nav {
-  display: none;
   list-style-type:none;
+  margin-top: 0vw;
   margin-bottom: 1.5vw;
 }
 
