@@ -85,7 +85,7 @@ nav li {
   mask: linear-gradient(90deg, #0000 0 2px, #fff, #0000 calc(100% - 2px) 100%);
   
   .background_div {
-    width: 40px;
+    width: 3%;
     aspect-ratio: 1;
     background: red;
     position: absolute;
@@ -110,9 +110,6 @@ nav li {
     opacity: 0.5; 
   }
   20% {
-    opacity: 0.8; 
-  }
-  50% {
     opacity: 0.8; 
   }
   80% {
@@ -300,7 +297,6 @@ input[type="text"], textarea, [contenteditable]
   flex-direction: column;
 
   background: #FAF9F6;
-  z-index: -1;
 
   border: #333 double 1vw;
   padding: 1vw;
@@ -360,7 +356,6 @@ input[type="text"], textarea, [contenteditable]
   flex-direction: row;
 
   background: #FAF9F6;
-  z-index: -1;
 
   border: #333 double 0.75vw;
   padding: 1vw;
@@ -467,7 +462,6 @@ input[type="text"], textarea, [contenteditable]
   flex-direction: row;
 
   background: #FAF9F6;
-  z-index: -1;
 
   border: #333 double 1vw;
   padding: 1vw;
@@ -574,7 +568,6 @@ input[type="text"], textarea, [contenteditable]
   flex-direction: column;
   align-items: center;
   background: #FAF9F6;
-  z-index: -1;
 
   border: #333 solid 0.75vw;
   padding: 1vw;
@@ -668,7 +661,7 @@ input[type="text"], textarea, [contenteditable]
 nav {
   list-style-type:none;
   margin-top: 0vw;
-  margin-bottom: 1.5vw;
+  margin-bottom: 0vw;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
@@ -687,19 +680,25 @@ nav {
 /* Styling the projects page */
 /*---------------------------------------------------------------------------------------------------------*/
 
-/* nothing here yet */
+.projects_list li {
+  margin-top: 0vw;
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the experiences page */
 /*---------------------------------------------------------------------------------------------------------*/
 
-/* nothing here yet */
+.experiences_list li {
+  margin-top: 0vw;
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the leadership page */
 /*---------------------------------------------------------------------------------------------------------*/
 
-/* nothing here yet */
+.leadership_list li {
+  margin-top: 0vw;
+}
 
 /*---------------------------------------------------------------------------------------------------------*/
 /* Styling the about me page */
