@@ -70,6 +70,64 @@ nav li {
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
+/* Styling the background animation! */
+/*---------------------------------------------------------------------------------------------------------*/
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+
+   /* rotate: y 40deg;*/
+  container-type: inline-size;
+  mask: linear-gradient(90deg, #0000 0 2px, #fff, #0000 calc(100% - 2px) 100%);
+  
+  .background_div {
+    width: 40px;
+    aspect-ratio: 1;
+    background: red;
+    position: absolute;
+    top: calc(var(--y) * 1%);
+
+    background: var(--color);
+    animation-name: travel;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: calc(var(--d) * -3s);
+    animation-duration: calc(var(--a) * 3s);
+  }
+}
+
+/* animation for squares fading in and out */
+@keyframes travel {
+  0% {
+    translate: 100cqi 0;
+    opacity: 0; 
+  }
+  10% {
+    opacity: 0.5; 
+  }
+  20% {
+    opacity: 0.8; 
+  }
+  50% {
+    opacity: 0.8; 
+  }
+  80% {
+    opacity: 0.8; 
+  }
+  90% {
+    opacity: 0.5;
+  }
+  100% {
+    translate: -50% 0;
+    opacity: 0; 
+  }
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
 /* Styling the header interactivity! */
 /*---------------------------------------------------------------------------------------------------------*/
 
@@ -241,6 +299,9 @@ input[type="text"], textarea, [contenteditable]
   display: flex;
   flex-direction: column;
 
+  background: #FAF9F6;
+  z-index: -1;
+
   border: #333 double 1vw;
   padding: 1vw;
 
@@ -298,7 +359,10 @@ input[type="text"], textarea, [contenteditable]
   display: flex;
   flex-direction: row;
 
-  border: #333 solid 0.75vw;
+  background: #FAF9F6;
+  z-index: -1;
+
+  border: #333 double 0.75vw;
   padding: 1vw;
 
   gap: 1.5vw;
@@ -401,6 +465,9 @@ input[type="text"], textarea, [contenteditable]
 .leadership_list li {
   display: flex;
   flex-direction: row;
+
+  background: #FAF9F6;
+  z-index: -1;
 
   border: #333 double 1vw;
   padding: 1vw;
@@ -506,8 +573,10 @@ input[type="text"], textarea, [contenteditable]
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #FAF9F6;
+  z-index: -1;
 
-  border: #333 dashed 0.75vw;
+  border: #333 solid 0.75vw;
   padding: 1vw;
 }
 

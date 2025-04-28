@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';  
 
 function ImageTrack() {
   const trackRef = useRef(null);
@@ -45,11 +45,34 @@ function ImageTrack() {
       track.dataset.prevPercentage = track.dataset.percentage;
     };
 
+    // Handle mouse wheel scroll horizontally when hovering over the track
+    const handleWheel = (e) => {
+      if (!isHovering) return; // Only allow scrolling if hovering over the track
 
+      e.preventDefault(); // Prevent default vertical scroll behavior
+
+      // Calculate how much to scroll horizontally based on wheel movement
+      const scrollDelta = e.deltaX; // Vertical wheel movement (deltaY)
+      const movePercentage = (scrollDelta / window.innerHeight) * 100; // Normalize movement based on window height
+
+      const currentTransform = track.style.transform || 'translateX(0)';
+      const currentPosition = parseFloat(currentTransform.replace('translateX(', '').replace('%)', ''));
+
+      Math.max(Math.min(nextPercentage, 0), -maxMove)
+      // Calculate the new position after horizontal scroll
+      const newPosition = Math.max(
+        Math.min(currentPosition - movePercentage, 0), // Prevent going past the right edge
+        -track.scrollWidth + window.innerWidth // Prevent going past the left edge
+      );
+
+      // Apply new position
+      track.dataset.percentage = newPosition;
+    };
 
     window.addEventListener("mousedown", handleMouseDown);
     window.addEventListener("mousemove", handleMouseMove);
     window.addEventListener("mouseup", handleMouseUp);
+
     
     return () => {
       window.removeEventListener("mousedown", handleMouseDown);
