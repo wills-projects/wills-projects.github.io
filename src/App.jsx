@@ -80,7 +80,6 @@ function App() {
           <Route path="/experience" element={<Experience/>}/>
           <Route path="/leadership" element={<Leadership/>}/>
           <Route path="/about" element={<About/>}/>
-          <Route path="/*" element={<Home/>}/>
         </Routes>
       </HashRouter>
     </> 
