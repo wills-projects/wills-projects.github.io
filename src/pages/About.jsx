@@ -20,7 +20,7 @@ function About() {
           In my free time, I enjoy playing video games, practicing piano, and
           going out with friends! I've recently enjoyed playing the game Summoners
           War and performing on stage with the Pitt Jazz Ensemble. I hope you
-          enjoy looking around my portfolio, while you're here check out my <a href="./William Lee Software Engineer Resume.pdf" id="resume">resume</a>!
+          enjoy looking around my portfolio, while you're here check out my <a href="./William Lee Software Developer Resume.pdf" id="resume">resume</a>!
         </p>
       </section>
       <Footer />

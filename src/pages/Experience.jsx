@@ -58,8 +58,17 @@ function Experience()
           /></a>
           <div class="text">
             <a href="https://www.howmet.com/">Howmet Aerospace</a>
-            <h3>IT Applications Developer (June 2025...)</h3>
-            <p>Coming soon May 2025...</p>
+            <h3>IT Applications Developer (May 2025 - Present)</h3>
+            <p>
+              Howmet Aerospace is a corporation that provides differentiated technologies to 
+              transform the aerospace and commercial transporatation industries. 
+              They have four business units, engines, wheels, fastening systems, and structures.
+            </p>
+            <p> 
+              Recently, I've been helped with implementation of a new reporting software 
+              called Orbit Analytics. I'm currently responsible for developing new reports 
+              in target modules to meet project deadlines and provide deliverables to end users.
+            </p>
           </div>
         </li>
       </ul>
